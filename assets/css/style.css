@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+header {
+    background-image:linear-gradient(rgba(0,0,0,0,0)) url(pexel-photo-5326919.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.logo a {
+    color: #5d0303;
+    padding: 0px 20px;
+    border: 1px solid #d01313;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 7);
+}
+.logo span{
+    color: rgb(238, 56, 11);
+    font-weight: bold;
+    font-size: 2rem;
+}
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0,6s;
+    
+}
+ul li a :hover{
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+ul li .active a{
+    background: #fff;
+    color: #000;
+}
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.titre h1 {
+    color: #a61111;
+    font-size: 70px;
+}
+.btn{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 120px;
+    height: 60px;
+}
+btn a{
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 5px solid;
+    padding: 10px 20px;
+    font-size: 22px;
+    
+}
+
